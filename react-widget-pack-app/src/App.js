@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.png';
 import './App.css';
-import CommentContainer from "react-widget-pack";
+import { ReactWidgetPack } from 'react-widget-pack';
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p />
-        <CommentContainer id={1} enable={true} />
+        <ReactWidgetPack id={1} enable={true} />
       </header>
     </div>
   );

@@ -41,7 +41,7 @@ const Dashboard = () => {
   return (
     <React.Fragment>
     	<div style={{ textAlign: "center" }}>
-    		<b>This data is retrieve from API:</b> https://jsonplaceholder.typicode.com/users
+    		<b>This data is retrieved from API:</b> https://jsonplaceholder.typicode.com/users
         <p />
         <table border="1" style={{ width: "100%" }}>
           <tbody>

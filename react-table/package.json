@@ -1,7 +1,7 @@
 {
   "name": "react-table",
   "version": "0.1.0",
-  "homepage": "http://localhost:8080/react-proxy-config",
+  "homepage": "http://localhost:8080/react-table",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",

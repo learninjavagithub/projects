@@ -1,5 +1,5 @@
 import React, { useRef, useState, useEffect } from "react";
-import { requestData, getTableDataFromJSONObject } from "./common/CommonFunctions.jsx";
+import { requestData, getTableDataFromJSONObject } from "./common/CommonFunctions.js";
 
 import ReactTable from "react-table";
 import LoadingSpinner from "./widgets/LoadingSpinner.js";

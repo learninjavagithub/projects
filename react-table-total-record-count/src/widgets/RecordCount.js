@@ -13,11 +13,11 @@ const RecordCount = ({ ...props }) => {
   } else recordsInfoText = "";
 
   return (
-    <div className="main-grid">
+    <div>
       {makeTable()}
-      <div className="above-table RightAlignedText">
+      <div className="RightAlignedText">
         <div className="col-sm-12">
-          <span className="records-info"><b>{recordsInfoText}</b></span>
+          <b>{recordsInfoText}</b>
         </div>
       </div>
     </div>

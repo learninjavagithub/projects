@@ -63,18 +63,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "angular-routing:build"
+            "buildTarget": "angular-routing:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "angular-routing:build:production"
+              "buildTarget": "angular-routing:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "angular-routing:build"
+            "buildTarget": "angular-routing:build"
           }
         },
         "test": {
@@ -120,6 +120,5 @@
           }
         }
       }
-    }},
-  "defaultProject": "angular-routing"
+    }}
 }
